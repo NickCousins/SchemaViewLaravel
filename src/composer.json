@@ -1,0 +1,14 @@
+{
+    "name": "nickcousins/laravelschemaview",
+    "description": "A simple Artisan command to view the schema of any Eloquent model",
+    "authors": [
+        {
+            "name": "Nick Cousins",
+            "email": "me@nickcousins.co.uk"
+        }
+    ],
+   "minimum-stability": "dev",
+    "require": {
+      "laravel/framework": "5.2.*"
+    }
+}
