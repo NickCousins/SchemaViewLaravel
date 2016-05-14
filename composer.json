@@ -1,6 +1,7 @@
 {
     "name": "nickcousins/schemaview-laravel",
     "description": "A simple Artisan command to view the schema of any Eloquent model",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
