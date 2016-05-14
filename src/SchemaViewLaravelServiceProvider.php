@@ -1,11 +1,11 @@
 <?php
 
-namespace nickcousins\SchemaViewLaravel;
+namespace nickcousins\schemaview;
 
 use Illuminate\Support\ServiceProvider;
-use nickcousins\SchemaViewLaravel\SchemaView;
+use nickcousins\schemaview\SchemaView;
 
-class SchemaViewLaravelServiceProvider extends ServiceProvider
+class SchemaViewServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

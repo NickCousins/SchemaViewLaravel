@@ -1,6 +1,6 @@
 <?php
 
-namespace nickcousins\SchemaViewLaravel;
+namespace nickcousins\schemaview;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
