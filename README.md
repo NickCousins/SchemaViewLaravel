@@ -6,6 +6,7 @@ A simple artisan command to view the Schema of an Eloquent model
 1. Composer Require: `nickcousins/schemaview-laravel`
 2. Add the following line to your config/app.php service providers:
    `nickcousins\schemaview\SchemaViewServiceProvider::class,`
+
 ##Usage
 
 Run the command `php artisan schema {model}` to view the schema of your chosen model
