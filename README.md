@@ -20,7 +20,7 @@ to specify the namespace
 ##Sample Output
 
     Schema for Model: App\User
-    Table: users`
+    Table: users
      +----------------+------------------+------+-----+---------+----------------+
      | Field          | Type             | Null | Key | Default | Extra          |
      +----------------+------------------+------+-----+---------+----------------+
