@@ -14,3 +14,19 @@ to use the default application namespace
 
 e.g.  `php artisan schema AnotherNamesapce\\Class`
 to specify the namespace
+
+##Output
+
+`Schema for Model: App\User
+ Table: users
+ +----------------+------------------+------+-----+---------+----------------+
+ | Field          | Type             | Null | Key | Default | Extra          |
+ +----------------+------------------+------+-----+---------+----------------+
+ | id             | int(10) unsigned | NO   | PRI |         | auto_increment |
+ | name           | varchar(255)     | NO   |     |         |                |
+ | email          | varchar(255)     | NO   | UNI |         |                |
+ | password       | varchar(60)      | NO   |     |         |                |
+ | remember_token | varchar(100)     | YES  |     |         |                |
+ | created_at     | timestamp        | YES  |     |         |                |
+ | updated_at     | timestamp        | YES  |     |         |                |
+ +----------------+------------------+------+-----+---------+----------------+`
