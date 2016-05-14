@@ -1,14 +1,20 @@
 {
     "name": "nickcousins/schemaview-laravel",
     "description": "A simple Artisan command to view the schema of any Eloquent model",
+    "type": "library",
+
     "authors": [
         {
             "name": "Nick Cousins",
             "email": "me@nickcousins.co.uk"
         }
     ],
-   "minimum-stability": "dev",
     "require": {
       "laravel/framework": "5.2.*"
-    }
+    },
+    "autoload": {
+      "psr-4": {
+        "SchemaViewLaravel\\": "src/"
+      }
+    },
 }
