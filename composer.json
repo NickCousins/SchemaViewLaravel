@@ -14,7 +14,7 @@
     },
     "autoload": {
       "psr-4": {
-        "nickcousins\\SchemaViewLaravel\\": "src/"
+        "nickcousins\\schemaview\\": "src/"
       }
     },
 }
