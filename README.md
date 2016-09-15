@@ -4,8 +4,18 @@ A simple artisan command to view the Schema of an Eloquent model
 ##Installation
 
 1. Composer Require: `nickcousins/schemaview-laravel`
-2. Add the following line to your config/app.php service providers:
-   `nickcousins\schemaview\SchemaViewServiceProvider::class,`
+2. Add the service provider.
+
+	- You'll almost always want to use the this generator for local development. Add the following code to your `AppServiceProvider.php`.
+
+			public function register()
+			{
+				if ($this->app->environment() == 'local') {
+					$this->app->register(nickcousins\schemaview\SchemaViewServiceProvider::class);
+				}
+			}
+
+	- Or, you could just, add the following line to your config/app.php service providers: `nickcousins\schemaview\SchemaViewServiceProvider::class,`
 
 ##Usage
 
